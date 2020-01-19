@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+html,
+body,
+:global(#root) {
+	min-height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #fff;
+	font-family: "MarkForMC-Regular";
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	cursor: pointer !important;
+	text-decoration: none;
+	color: inherit;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+* {
+	-webkit-tap-highlight-color: transparent;
+	/* user-select: none; */
+}
+input,
+textarea {
+	outline: none;
+}
+textarea {
+	resize: none;
+}
+
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+select {
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: #fff;
+	outline: 0;
+}
+input {
+	user-select: auto;
+	-webkit-user-select: auto;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+/* @font-face {
+	font-family: "MarkForMC-Regular";
+	src: url("../fonts/MarkForMC-Regular.ttf") format("truetype"),
+		url("../fonts/MarkForMC-Regular.eot") format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
+} */
